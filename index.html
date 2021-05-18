@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es-es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shopping</title>
+  </head>
+  <body>
+    <header class="nav-bar-container">
+      <nav class="navigation-bar">
+        <img class="nav-bar-logo" src="/images/logo-shopping.png" alt="" />
+        <ul class="nav-bar-list">
+          <li><a href="#buy-here" class="btn">Compra acá</a></li>
+          <li><a href="#contact" class="btn">Contacto</a></li>
+          <li><a href="#register" class="btn">Registrate</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="main-section">
+      <div id="register" class="register-container">
+        <h1 class="headline-main-section">Registrate acá!</h1>
+        <form class="register-form">
+          <input
+            type="text"
+            placeholder="Nombre"
+            name="name"
+            required
+            autocomplete="name"
+            class="form-input"
+          />
+          <input
+            type="text"
+            placeholder="Apellido"
+            name="surname"
+            required
+            autocomplete="family-name"
+            class="form-input"
+          />
+          <input
+            type="text"
+            placeholder="Email"
+            name="email"
+            required
+            autocomplete="email"
+            class="form-input"
+          />
+          <div class="terms-and-conditions-container">
+            <input
+              type="checkbox"
+              id="terms-and-conditions"
+              value="Acepto los terminos y condiciones"
+              required
+            />
+            <label for="terms-and-conditions"
+              >Acepto los terminos y condiciones</label
+            >
+          </div>
+          <input
+            type="submit"
+            value="Registrar"
+            class="btn form-input"
+            required
+          />
+        </form>
+      </div>
+    </section>
+    <section class="eat-here-section">
+      <img
+        src="https://www.ahstatic.com/photos/b758_rsr001_00_p_1024x768.jpg"
+        alt=""
+      />
+      <div class="register-for-offers">
+        <h1>Comé en nuestros mejores restaurants!</h1>
+        <h2>¡Registrate para más información!</h2>
+        <a class="btn" href="#register">Registrar</a>
+      </div>
+    </section>
+    <section class="hotel-section">
+      <img src="/images/logo-hotel.png" alt="" class="logo-hotel-img" />
+      <div class="text-hotel-container">
+        <h1>Alojate en nuestro hotel de lujo</h1>
+        <span class="btn offers-btn">MÁS INFORMACIÓN</span>
+      </div>
+    </section>
+    <section id="buy-here" class="search-section">
+      <h3 class="our-stores-headline">Algunas de nuestras tiendas</h3>
+      <div class="search-container">
+        <input type="text" placeholder="Buscar una tienda" required />
+        <span>Buscar</span>
+      </div>
+      <ul class="images-list">
+        <li>
+          <img
+            class="logo-img"
+            src="https://tentulogo.com/wp-content/uploads/2017/07/nIke-logo.jpg"
+            alt=""
+          />
+        </li>
+        <li>
+          <img
+            class="logo-img"
+            src="https://logos-marcas.com/wp-content/uploads/2020/04/Gucci-Logo.png"
+            alt=""
+          />
+        </li>
+        <li>
+          <img
+            class="logo-img"
+            src="https://logos-marcas.com/wp-content/uploads/2020/04/Louis-Vuitton-Logo.png"
+            alt=""
+          />
+        </li>
+        <li>
+          <img
+            class="logo-img"
+            src="https://1000marcas.net/wp-content/uploads/2020/01/Prada-Logotipo.jpg"
+            alt=""
+          />
+        </li>
+      </ul>
+    </section>
+    <footer>
+      <div class="container-info">
+        <div id="contact" class="contact-info">
+          <ul class="other-info">
+            <li><i class="fas fa-envelope"></i>shopping@example.com</li>
+            <li><i class="fas fa-phone"></i>+1 (222) 222-2222</li>
+          </ul>
+          <ul class="social-media-list">
+            <li><i class="fab fa-facebook"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li>
+              <i class="fab fa-twitter"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="">
+          <p class="rights-p">&#169;Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
