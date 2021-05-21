@@ -21,6 +21,7 @@ section {
 
 .main-section {
   background-image: url("https://1920x1080hdwallpapers.com/image/201502/city/281/pool-dubai-mall.jpg");
+  background-repeat: no-repeat;
 }
 
 /*Header*/
