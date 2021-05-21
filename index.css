@@ -32,7 +32,7 @@ section {
 }
 
 .navigation-bar {
-  max-width: 1024px;
+  max-width: 50%;
   width: 100%;
   display: flex;
   justify-content: space-between;
